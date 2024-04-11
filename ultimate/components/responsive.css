@@ -1,0 +1,76 @@
+@media screen and (max-width: 700px) {
+    h5,
+    h2,
+    h1 {
+        font-weight: 500;
+    }
+/* ============// section section \\============== */
+    section {
+        padding: 35% 2%;
+    }
+    .btn-wrapper {
+        margin: 10% 25%;
+    }
+    .btn {
+        font-size: smaller;
+        padding: 3%;
+    }
+    .home-content > img {
+        height: 50vh;
+        margin: 3%;
+        
+    }
+    .icon-wrapper{
+        display: none;
+    }
+    .portifolio-section {
+        padding: 2%;
+    }
+    .about-section {
+        padding: 5% 1%;
+    }
+    .about-text{
+        text-align: center;
+        padding: 2%;
+    }
+    .card-one > ion-icon {
+        font-size: 200%;
+        color: var(--color-primary);
+    }
+    .skills-card-wrapper, 
+    .about-grid,
+    .services-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-card {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-img-card{
+        height: 45vh;
+        margin: 2% 20%;
+    }
+    .about-img-card > img {
+        height: 45vh;
+        /* justify-content: center;
+        align-content: center; */
+    }
+    li > span {
+        display: flex;
+        gap: 15%;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .skills-card-wrapper, .about-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .home-content > img {
+    margin: 3% 30%;
+    }
+}
